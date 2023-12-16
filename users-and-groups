@@ -1,0 +1,34 @@
+head -1 /etc/passwd
+  113  grep vargrant /etc/passwd
+  114  cat /etc/passwd
+  115  grep vagrant /etc/passwd
+  116  cat /etc/group
+  117  clear
+  118  id vagrant
+  119  clear
+  120  useradd ansible 
+  121  useradd jenkins
+  122  useradd aws
+  123  tail -4 /etc/passwd
+  124  tail -4 /etc/gr
+  125  tail -4 /etc/group
+  126  id ansible
+  127  groeupadd devops
+  128  groupadd devops
+  129  usermod -aG devops ansible
+  130  id ansible
+  131  grep ansible /etc/group
+  132  vim /etc/group
+  133  id jenkins
+  134  passwd jenkins
+  135  su - jenkins
+  136  passwd
+  137  last
+  138  who
+  139  lsof -u vagrant
+  140  lsof -u jenkins
+  141  userdel aws
+  142  ls /home/
+  143  userdel -r  aws
+  144  userdel -r  jenkins
+  145  ls /home/
