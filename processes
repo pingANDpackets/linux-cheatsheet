@@ -1,0 +1,18 @@
+  153  top
+  154  clear
+  155  psaux
+  156  ps aux
+  157  clear
+  158  ps -ef
+  159  ps -ef | grep httpd
+  160  ps -ef | grep httpd | grep -v 'grep'
+  161  kill 27212
+  162  ps -ef | grep httpd | grep -v 'grep'
+  163  systemctl start httpd
+  164  ps -ef | grep httpd | grep -v 'grep'
+  165  kill -9 27666
+  166  ps -ef | grep httpd | grep -v 'grep'
+  167  ps -ef | grep httpd | grep -v 'grep' | awk '{print$2}' | xargs kill -9
+  168  systemctl start https
+  169  systemctl start httpd
+  170  ps -ef | grep httpd | grep -v 'grep' | awk '{print$2}' | xargs kill -9
