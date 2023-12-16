@@ -1,0 +1,7 @@
+visudo
+vim /etc/sudoers
+
+better to copy an edit a seperate sudoers file 
+
+cp  /etc/sudoers.d/vagrant /etc/sudoers.d/devops
+
