@@ -1,0 +1,28 @@
+mkdir userdirectory
+  151  groupadd devops
+  152  useradd ansible
+  153  useradd jenkins
+  154  useradd aws
+  155  vim /etc/group
+  156  id ansible
+  157  ls -ld userdirectory/
+  158  chown -R  ansible:devops userdirectory/
+  159  ls -ld userdirectory/
+  160  chmod o-x userdirectory/
+  161  ls -ld userdirectory/
+  162  chmod o-r userdirectory/
+  163  ls -ld userdirectory/
+  164  chmod g+r userdirectory/
+  165  ls -ld userdirectory/
+  166  su - jenkins
+  167  ls userdirectory/
+  168  cd userdirectory/
+  169   mkdir /opt/webdata
+  170  ls -ld /opt/webdata
+  171  chown aws.devops /opt/webdata
+  172  ls -ld /opt/webdata
+  173  chmod 770 /opt/webdata/
+  174  chmod -R 770 /opt/webdata/
+  175  ls -ld /opt/webdata
+  176  chmod 754 /opt/webdata/
+  177  ls -ld /opt/webdata
