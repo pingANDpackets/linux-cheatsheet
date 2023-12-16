@@ -1,0 +1,14 @@
+  111  yum install httpd
+  112  yum remove httpd
+  113  yum install jenkins
+  114  history
+  115  clear
+  116  yum install wget
+  117  sudo wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+  118  sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+  119  sudo yum install fontconfig java-17-openjdk
+  120  sudo yum install jenkins
+  121  sudo systemctl daemon-reload
+  122  yum repolist
+  123  yum clean all
+  124  yum history
