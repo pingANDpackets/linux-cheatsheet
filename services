@@ -1,0 +1,19 @@
+       yum install httpd
+  131  clear
+  132  yum install httpd -y
+  133  systemctl httpd status
+  134  systemctl  status httpd
+  135  systemctl start httpd
+  136  systemctl  status httpd
+  137  clear
+  138  systemctl restart httpd
+  139  systemctl reload  httpd
+  140  # sudo reboot
+  141  systemctl  status httpd
+  142  systemctl enable  httpd
+  143  # sudo reboot
+  144  systemctl  status httpd
+  145  systemctl  status sshd
+  146  systemctl  is-active httpd
+  147  systemctl  is-enabled  httpd
+  148  cat /etc/systemd/system/multi-user.target.wants/httpd.service 
