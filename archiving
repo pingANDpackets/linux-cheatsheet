@@ -1,1 +1,32 @@
+  174  cd /var/log
+  175  ls
+  176   tar -czvf sample-archive.tar.gz httpd/
+  177  ls
+  178  filr sample-archive.tar.gz 
+  179  file sample-archive.tar.gz 
+  180  cd /tmp
+  181  cd ..
+  182  cd var/log
+  183  ls
+  184  mv sample-archive.tar.gz /tmp/
+  185  cd /tmp/
+  186  ls
+  187  tar sample-archive.tar.gz tar xvzfs sample-archive.tar.gz 
+  188  tar -xzvf sample-archive.tar.gz tar xvzfs sample-archive.tar.gz 
+  189  ls
+  190  tar -xzvf sample-archive.tar.gz 
+  191  ls
+  192  tar -xzvf sample-archive.tar.gz -C /opt/
+  193  cd /opt/
+  194  ls
+  195  cd /var/log
+  196  yum install zip
+  197  yum install unzip
+  198  ls
+  199  zip -r sample2.zip http/
+  200  zip -r sample2.zip httpd/
+  201  mv sample2.zip /opt/
+  202  cd /opt
+  203  unzip sample2.zip 
+  204  ls
 
